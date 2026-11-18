@@ -1,0 +1,29 @@
+@use "../abstracts";
+
+.wrapper {
+  background: url(../../images/mobile/image-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100svh;
+}
+
+.hero {
+  padding: 0 1.25rem;
+  position: relative;
+
+  &__title {
+    text-transform: uppercase;
+    font-weight: abstracts.$font-weight;
+    font-size: abstracts.$font-size-xlarge;
+    color: abstracts.$white;
+    border: 2px solid abstracts.$white;
+    padding: 1.125rem;
+    line-height: 1.2;
+    letter-spacing: 0.1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% 50%;
+    z-index: 1;
+  }
+}

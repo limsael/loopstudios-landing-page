@@ -16,5 +16,69 @@
 
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__brand">
+          <a href="#">
+            <img
+              src="./images/logo.svg"
+              alt="Loopstudios logo"
+              class="header__logo"
+            />
+          </a>
+        </div>
+
+        <nav class="nav" id="nav" aria-label="Main navigation">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Careers</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Events</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Products</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Support</a>
+            </li>
+            <li class="nav__item">
+              <button
+                type="button"
+                class="nav__close"
+                aria-label="Close navigation menu"
+              >
+                <img src="./images/icon-close.svg" alt="" aria-hidden="true" />
+              </button>
+            </li>
+          </ul>
+        </nav>
+        <div>
+          <button
+            type="button"
+            class="header__toggle"
+            aria-expanded="false"
+            aria-controls="nav"
+            aria-label="Open navigation menu"
+          >
+            <img src="./images/icon-hamburger.svg" alt="" aria-hidden="true" />
+          </button>
+        </div>
+      </header>
+
+      <section class="hero">
+        <h1 class="hero__title">Immersive experiences that deliver</h1>
+      </section>
+    </div>
+
+    <main class="main"></main>
+
+    <footer class="footer"></footer>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
 </html>
