@@ -1,0 +1,31 @@
+@use "../abstracts";
+
+.about {
+  margin-block-start: 5rem;
+  margin-block-end: 1.5rem;
+  padding: 0 1.75rem;
+
+  &__image {
+    width: 100%;
+    margin-block-end: 1.5rem;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-weight: abstracts.$font-weight;
+    font-size: abstracts.$font-size-xlarge;
+    color: abstracts.$black;
+    margin-block: 1.5rem;
+    margin-inline: auto;
+    text-align: center;
+  }
+
+  &__description {
+    font-family: abstracts.$font-family-alata;
+    color: abstracts.$medium-grey;
+    margin-inline: auto;
+    text-align: center;
+    line-height: 1.5;
+    max-width: 35rem;
+  }
+}

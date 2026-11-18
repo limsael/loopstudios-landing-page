@@ -115,4 +115,31 @@ a {
   z-index: 1;
 }
 
+.about {
+  margin-block-start: 5rem;
+  margin-block-end: 1.5rem;
+  padding: 0 1.75rem;
+}
+.about__image {
+  width: 100%;
+  margin-block-end: 1.5rem;
+}
+.about__title {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.975rem;
+  color: hsl(0, 0%, 0%);
+  margin-block: 1.5rem;
+  margin-inline: auto;
+  text-align: center;
+}
+.about__description {
+  font-family: "Alata", sans-serif;
+  color: hsl(0, 0%, 55%);
+  margin-inline: auto;
+  text-align: center;
+  line-height: 1.5;
+  max-width: 35rem;
+}
+
 /*# sourceMappingURL=style.css.map */
